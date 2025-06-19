@@ -1,0 +1,84 @@
+# 🔒 Secure Adaptive Image Steganography System
+
+A final-year major project aimed at developing a **secure and adaptive image steganography** system that ensures both **data confidentiality** and **visual imperceptibility** during the process of data hiding in digital images.
+
+## 📌 Table of Contents
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [How It Works](#how-it-works)
+- [Setup Instructions](#setup-instructions)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Authors](#authors)
+- [License](#license)
+
+## 🧠 Introduction
+
+This project overcomes common limitations of traditional steganography techniques by integrating **hybrid encryption** methods (AES + RSA) with **adaptive image processing** to improve data security and maintain image quality.
+
+## 🚀 Key Features
+
+- 🔐 **Hybrid Encryption**: Combines AES (symmetric) and RSA (asymmetric) encryption for strong data protection.
+- 🖼️ **Adaptive Embedding**: Adjusts pixel manipulation to minimize distortion.
+- 📷 **Lossless Image Quality**: Maintains original appearance post data hiding.
+- 🧪 **Robust Extraction**: Ensures accurate and secure data retrieval from stego images.
+- 📊 **Security Focused**: Protects sensitive data from steganalysis and attacks.
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- OpenCV
+- NumPy
+- Cryptography (AES, RSA)
+- Tkinter (for GUI)
+- PIL (Pillow)
+
+## ⚙️ How It Works
+
+1. **User Input**: Secret message or file is provided.
+2. **Encryption**: Message is encrypted using AES, and AES key is encrypted using RSA.
+3. **Embedding**: The encrypted message is embedded into an image using Least Significant Bit (LSB) method.
+4. **Output**: A stego image is generated which looks identical to the original.
+5. **Extraction**: The hidden data can be extracted and decrypted by the authorized user.
+
+## 💻 Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/Secure-Adaptive-Steganography.git
+cd Secure-Adaptive-Steganography
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app (replace with your actual script)
+python adptive.py
+📁 Project Structure
+arduino
+Copy
+Edit
+Secure-Adaptive-Steganography/
+├── adaptive/
+│   ├── adptive.py
+│   └── aptive_with_logs.py
+├── lsb/
+│   └── steganography.py
+├── samples/
+│   ├── test_image.png
+│   └── text.txt
+├── utils/
+│   └── histogram.py
+├── README.md
+👨‍💻 Authors
+Syed Akmal Hussain
+GitHub | akmalhussain7866@gmail.com
+
+📄 License
+This project is licensed under the MIT License – feel free to use and adapt it with credit.
+
+yaml
+Copy
+Edit
+
+---
